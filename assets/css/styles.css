@@ -1,8 +1,39 @@
 .top-body{
   padding-top: 1000px;
 }
+
 img .circle{
   border-radius: 50%;
   width:100%;
   height: 100%;
+}
+
+.container{
+ position: relative;
+ top:50px;
+}
+
+#project-section-header {
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.projects-grid {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.projects-grid>a {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#project-img {
+  width: 400px;
+  height: 300px;
+}
+
+.padding{
+  padding-top: 5.5em;
 }
